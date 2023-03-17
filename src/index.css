@@ -1,13 +1,81 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.portfolio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 3rem;
+}
+
+.portfolio h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.portfolio-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.portfolio-item {
+  width: 30%;
+  background-color: #fff;
+  margin-bottom: 2rem;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out;
+}
+
+.portfolio-item:hover {
+  transform: translateY(-1rem) scale(1.02);
+}
+
+.portfolio-item img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.item-details {
+  padding: 1.5rem;
+}
+
+.item-details h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.item-details p {
+  margin-bottom: 1rem;
+}
+
+.links {
+  display: flex;
+  justify-content: space-between;
+}
+
+.links a {
+  border: 1px solid #000;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  color: #000;
+  transition: all 0.3s ease-in-out;
+}
+
+.links a:hover {
+  background-color: #000;
+  color: #fff;
 }
