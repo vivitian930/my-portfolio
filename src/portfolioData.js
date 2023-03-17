@@ -17,6 +17,14 @@ export const portfolioData = [
         image: "https://via.placeholder.com/150",
         liveLink: "https://www.example.com",
         sourceLink: "https://www.github.com"
+      },
+      {
+        id: 3,
+        title: "Project 3",
+        description: "A description of project 3",
+        image: "https://via.placeholder.com/150",
+        liveLink: "https://www.example.com",
+        sourceLink: "https://www.github.com"
       }
     ]
   },
@@ -24,7 +32,7 @@ export const portfolioData = [
     title: "Personal Hobbies",
     projects: [
       {
-        id: 3,
+        id: 4,
         title: "Hobby Project 1",
         description: "A description of hobby project 1",
         image: "https://via.placeholder.com/150",
@@ -32,7 +40,7 @@ export const portfolioData = [
         sourceLink: "https://www.github.com"
       },
       {
-        id: 4,
+        id: 5,
         title: "Hobby Project 2",
         description: "A description of hobby project 2",
         image: "https://via.placeholder.com/150",
