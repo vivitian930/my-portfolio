@@ -30,3 +30,22 @@
 .contact-info span {
   margin: 0.5rem;
 }
+.social-links {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.social-links a {
+  margin: 0.5rem;
+  color: #555;
+  transition: all 0.3s ease-in-out;
+}
+
+.social-links a:hover {
+  color: #0077b5;
+}
+
+.social-links a:nth-child(3) {
+  margin-right: 0;
+}

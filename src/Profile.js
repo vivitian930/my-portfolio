@@ -1,3 +1,9 @@
+import {
+  faFacebook,
+  faGithub,
+  faLinkedin
+} from "@fortawesome/free-brands-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 
 const Profile = () => {
@@ -15,6 +21,21 @@ const Profile = () => {
         alt="Your Name"
       />
       <h1 className="profile-name">Your Name</h1>
+      <div className="social-links">
+        <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">
+          <FontAwesomeIcon icon={faLinkedin} size="2x" />
+        </a>
+        <a href="https://www.facebook.com/" target="_blank" rel="noreferrer">
+          <FontAwesomeIcon icon={faFacebook} size="2x" />
+        </a>
+        <a
+          href="https://github.com/yourusername"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <FontAwesomeIcon icon={faGithub} size="2x" />
+        </a>
+      </div>
       <div className="contact-info">
         {contactInfo.map((info) => (
           <span key={info.id}>
