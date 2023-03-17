@@ -2,6 +2,7 @@ import React from "react";
 
 const PortfolioItem = ({
   id,
+  sectionTitle,
   title,
   description,
   image,
@@ -24,6 +25,7 @@ const PortfolioItem = ({
             Source code
           </a>
         </div>
+        <p className="section-title">{sectionTitle}</p>
       </div>
     </div>
   );

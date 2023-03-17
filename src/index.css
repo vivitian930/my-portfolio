@@ -79,3 +79,6 @@ code {
   background-color: #000;
   color: #fff;
 }
+.portfolio > div:not(:first-child) {
+  margin-top: 3rem;
+}

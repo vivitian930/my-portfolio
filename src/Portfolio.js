@@ -5,12 +5,20 @@ import PortfolioItem from "./PortfolioItem";
 const Portfolio = () => {
   return (
     <div className="portfolio">
-      <h2>Portfolio</h2>
-      <div className="portfolio-items">
-        {portfolioData.map((item) => (
-          <PortfolioItem key={item.id} {...item} />
-        ))}
-      </div>
+      {portfolioData.map((section) => (
+        <div key={section.title}>
+          <h2>{section.title}</h2>
+          <div className="portfolio-items">
+            {section.projects.map((project) => (
+              <PortfolioItem
+                key={project.id}
+                {...project}
+                sectionTitle={section.title}
+              />
+            ))}
+          </div>
+        </div>
+      ))}
     </div>
   );
 };
