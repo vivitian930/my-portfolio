@@ -46,6 +46,14 @@ export const portfolioData = [
         image: "https://via.placeholder.com/150",
         liveLink: "https://www.example.com",
         sourceLink: "https://www.github.com"
+      },
+      {
+        id: 6,
+        title: "Hobby Project 3",
+        description: "A description of hobby project 3",
+        image: "https://via.placeholder.com/150",
+        liveLink: "https://www.example.com",
+        sourceLink: "https://www.github.com"
       }
     ]
   }

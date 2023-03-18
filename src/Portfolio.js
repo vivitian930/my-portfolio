@@ -4,7 +4,7 @@ import PortfolioItem from "./PortfolioItem";
 
 const Portfolio = () => {
   return (
-    <div className="portfolio">
+    <div className="portfolio" id="portfolio">
       {portfolioData.map((section) => (
         <div key={section.title}>
           <h2>{section.title}</h2>

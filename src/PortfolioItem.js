@@ -19,10 +19,10 @@ const PortfolioItem = ({
         <p>{description}</p>
         <div className="links">
           <a href={liveLink} target="_blank" rel="noreferrer">
-            Live demo
+            <span>Live demo</span>
           </a>
           <a href={sourceLink} target="_blank" rel="noreferrer">
-            Source code
+            <span>Source code</span>
           </a>
         </div>
         <p className="section-title">{sectionTitle}</p>
