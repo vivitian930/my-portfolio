@@ -36,3 +36,12 @@
     transform: rotate(360deg);
   }
 }
+
+.App {
+  background-color: #1c2237;
+  width: 100%;
+  min-height: 100vh;
+  overflow-x: hidden;
+  color: #fff;
+  padding: 4rem 2rem;
+}
