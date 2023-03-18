@@ -14,7 +14,7 @@ const About = () => {
         </div>
         <div className="profile-details">
           <p>
-            Hi there! My name is John and I'm a frontend developer based in San
+            Hi there! My name is xxx and I'm a frontend developer based in San
             Francisco. I love building beautiful and intuitive websites that
             provide great user experiences. My passion for web development
             started when I was a teenager and has only grown stronger with time.
